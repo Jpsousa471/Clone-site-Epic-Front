@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@layer components {
+    .center {
+        @apply flex items-center justify-center 
+    }
+
+    .gCenter {
+        @apply grid items-center justify-center mt-20
+    }
+}
